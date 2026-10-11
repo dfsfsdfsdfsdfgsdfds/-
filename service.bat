@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableExtensions
 chcp 65001 >nul
-title Zuzalauncher
+title ZAPRETOZUZA
 
 :: Запрос прав администратора
 net session >nul 2>&1
@@ -27,8 +27,8 @@ if not exist "%GENERAL%" (
 :MENU
 cls
 echo ==============================
-echo          ZUZALAUNCHER
-echo     version 1.9.7
+echo          ZAPRETOZUZA
+echo         version 1.9.7
 echo ==============================
 echo 1. Выбрать альт
 echo 2. Удалить альт
